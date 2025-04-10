@@ -90,6 +90,13 @@ rechargeable battery. Its plug-and-play nature makes integration seamless.
 
 ---
 
+### Circuit 01  /  Vision and Voice Interaction System Diagram 
+
+![Circuit 01](images/Circuit%201.png)
+
+---
+
+
 ### 💡 Circuit 02  /  Audio Reactive Lighting System
 
 #### ● Arduino Uno  
@@ -157,6 +164,13 @@ can be used for the Arduino and LED circuit to prevent power fluctuations.
 ![Power Banks](images/Power%20Banks.png)
 
 ---
+
+### Circuit 02  /  Audio Reactive Lighting System Diagram 
+
+![Circuit 02](images/Circuit%202.png)
+
+---
+
 
 ## 🧠 Software
 
