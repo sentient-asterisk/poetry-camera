@@ -30,7 +30,7 @@ needed to get started — including micro-HDMI cables for connecting to a displa
 
 ---
 
-#### ● Raspberry Pi Camera Module Rev 1.3  
+#### ● Raspberry Pi Camera Module V2  
 The Raspberry Pi Camera Module V2 is an official high-quality camera add-on designed  
 for Raspberry Pi boards. It features an 8-megapixel Sony IMX219 sensor and can  
 capture still images at 3280 x 2464 resolution and record HD video at 1080p30,  
