@@ -1,5 +1,7 @@
 # ✴️ Asterisk – A Sentient Camera
 
+**Created by [Uttkarsh](https://www.linkedin.com/in/uttk) and [Sakshi](https://www.linkedin.com/in/sakshi-suthar-cca/)**
+
 ---
 
 ## 🧩 Components
