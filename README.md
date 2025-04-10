@@ -143,7 +143,7 @@ power supply to electronic circuits. It features a stable, click-based toggle me
 and is commonly mounted into enclosures for easy access. The rocker switch acts as a  
 power control, allowing us to safely turn ‘Circuit 02’ on or off without unplugging wires.  
 
-![On-Off Rocker Switch](https://envistiamall.com/cdn/shop/products/mini-rocker-switch-2-pin-on-off-spst-125vac6a-250vac3a-red-kcd117s-2x5x10x-319365.jpg?v=1617838501)
+![On-Off Rocker Switch](https://mgispeedware.com/wp-content/uploads/2019/12/neon_rocker_red.jpg)
 
 ---
 
@@ -154,7 +154,7 @@ allowing it to operate without needing a wall outlet. The Raspberry Pi requires 
 high-capacity, stable 5V/3A power bank to run smoothly, while a separate power bank  
 can be used for the Arduino and LED circuit to prevent power fluctuations.  
 
-![Power Banks](https://images.philips.com/is/image/philipsconsumer/a5765849ade0479285e4b0cc0045e9e8?wid=700&hei=700&$pnglarge$)
+![Power Banks](https://mobileimages.lowes.com/productimages/c95d846f-30c7-4886-afa9-3f757eca19d8/42192142.jpg?size=xl)
 
 ---
 
