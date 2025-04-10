@@ -28,7 +28,7 @@ we recommend the official Raspberry Pi 4 Desktop Kit, which includes everything
 needed to get started — including micro-HDMI cables for connecting to a display.  
 [https://www.raspberrypi.com/products/raspberry-pi-4-desktop-kit/](https://www.raspberrypi.com/products/raspberry-pi-4-desktop-kit/)
 
-![Raspberry Pi 4]([https://m.media-amazon.com/images/I/31+4N+6oq2S.jpg](https://www.generationrobots.com/19375-product_cover/raspberry-pi-4-model-b.jpg))
+![Raspberry Pi 4](https://www.generationrobots.com/19375-product_cover/raspberry-pi-4-model-b.jpg)
 
 
 ---
