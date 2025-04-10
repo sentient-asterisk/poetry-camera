@@ -103,16 +103,15 @@ allowing both circuits to run specialized tasks in parallel.
 ---
 
 #### ● Electret Microphone Amplifier - MAX4466 with Adjustable Gain  
-The **MAX4466** is a low-noise, high-gain microphone amplifier module.  
-It features an onboard potentiometer to manually adjust the gain level.  
-This makes it ideal for capturing clean and consistent audio input.   
+The MAX4466 is a low-noise, high-gain electret microphone amplifier with adjustable gain control.  
+It includes a built-in potentiometer that allows you to fine-tune the sensitivity for your needs.  
+This module is great for capturing clear and consistent audio, even in variable sound environments.  
 
-We use the MAX4466 with the **Arduino Uno** microcontroller board.  
-It picks up sound from the AI-generated, spoken poetry audio.  
-The analog output signal reflects the current volume of the audio.  
-This signal is used to animate LEDs in real-time response.  
-The lighting reacts to the rhythm and intensity of the poem.  
-This creates a dynamic and immersive audio-visual experience overall.  
+We use the MAX4466 in combination with the **Arduino Uno** for our interactive lighting setup.  
+It captures the sound of the AI-generated, spoken poem and produces a responsive analog signal.  
+This signal reflects the audio volume and drives the LED animations in real time.  
+The LEDs visually respond to rhythm, intensity, and tone, enhancing the poetic performance experience.  
+This creates a rich, immersive fusion of sound and light that evolves with every word.  
 
 ---
 
