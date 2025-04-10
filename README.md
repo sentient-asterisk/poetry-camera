@@ -118,7 +118,7 @@ This signal reflects the audio volume and drives the LED animations in real time
 The LEDs visually respond to rhythm, intensity, and tone, enhancing the poetic performance experience.  
 This creates a rich, immersive fusion of sound and light that evolves with every word.
 
-![Arduino Uno](https://i.ebayimg.com/images/g/u~EAAOSwnbZYFHi7/s-l400.jpg)
+![Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://i.ebayimg.com/images/g/u~EAAOSwnbZYFHi7/s-l400.jpg)
 
 ---
 
@@ -131,7 +131,9 @@ drivers.
 We use six NeoPixel Sticks in the Arduino-powered audio-reactive circuit to create  
 vibrant, real-time visual responses to the spoken poem. The sticks react to the audio  
 levels captured by the MAX9815 microphone, lighting up and animating in patterns that  
-reflect the tone of the poem.  
+reflect the tone of the poem. 
+
+![NeoPixels Sticks](https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/656499_493114_01_front_comping.jpg)
 
 ---
 
@@ -141,6 +143,8 @@ power supply to electronic circuits. It features a stable, click-based toggle me
 and is commonly mounted into enclosures for easy access. The rocker switch acts as a  
 power control, allowing us to safely turn ‘Circuit 02’ on or off without unplugging wires.  
 
+![On-Off Rocker Switch](https://envistiamall.com/cdn/shop/products/mini-rocker-switch-2-pin-on-off-spst-125vac6a-250vac3a-red-kcd117s-2x5x10x-319365.jpg?v=1617838501)
+
 ---
 
 #### ● Power Banks  
@@ -149,6 +153,8 @@ on the go. We use power banks to make the system fully mobile and self-contained
 allowing it to operate without needing a wall outlet. The Raspberry Pi requires a  
 high-capacity, stable 5V/3A power bank to run smoothly, while a separate power bank  
 can be used for the Arduino and LED circuit to prevent power fluctuations.  
+
+![Power Banks](https://images.philips.com/is/image/philipsconsumer/a5765849ade0479285e4b0cc0045e9e8?wid=700&hei=700&$pnglarge$)
 
 ---
 
