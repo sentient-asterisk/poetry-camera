@@ -2,8 +2,6 @@
 
 **Created by [Uttkarsh](https://www.linkedin.com/in/uttk) and [Sakshi](https://www.linkedin.com/in/sakshi-suthar-cca/)**
 
-![Asterisk](images/Landscape.mp4)
-
 ---
 
 ## 🧩 Components
