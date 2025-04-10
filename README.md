@@ -102,17 +102,17 @@ allowing both circuits to run specialized tasks in parallel.
 
 ---
 
-#### ● Electret Microphone Amplifier MAX9814  
-The MAX9815 is a high-gain, low-noise electret microphone amplifier module with  
-automatic gain control (AGC). It’s designed to capture audio input with consistent  
-volume levels, making it ideal for applications where sound levels vary or where clarity  
-is key.  
+#### ● Electret Microphone Amplifier - MAX4466 with Adjustable Gain  
+The **MAX4466** is a low-noise, high-gain microphone amplifier module.  
+It features an onboard potentiometer to manually adjust the gain level.  
+This makes it ideal for capturing clean and consistent audio input.   
 
-We use the MAX9815 module with the Arduino Uno to enable the audio-reactive  
-lighting system. It picks up the sound of the spoken poem and outputs an analog signal  
-proportional to the audio volume. This signal is then used to animate LEDs in sync with  
-the rhythm and intensity of the poem, creating a dynamic and immersive visual  
-response to the AI-generated audio.  
+We use the MAX4466 with the **Arduino Uno** microcontroller board.  
+It picks up sound from the AI-generated, spoken poetry audio.  
+The analog output signal reflects the current volume of the audio.  
+This signal is used to animate LEDs in real-time response.  
+The lighting reacts to the rhythm and intensity of the poem.  
+This creates a dynamic and immersive audio-visual experience overall.  
 
 ---
 
