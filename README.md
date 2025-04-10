@@ -1,4 +1,4 @@
-# Sentient Artefact
+# Asterisk- A Sentient Camera
 
 ---
 
