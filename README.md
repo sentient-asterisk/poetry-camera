@@ -45,7 +45,7 @@ real-time computer vision tasks. It’s important to enable the camera interface
 Pi's configuration settings before use, and ensure the ribbon cable is securely  
 connected — the camera is delicate and sensitive to handling.  
 
-![Arcade Button Chrome Silver Plated](https://m.media-amazon.com/images/I/31+4N+6oq2S.jpg)
+![Raspberry Pi Camera Module V2](https://m.media-amazon.com/images/I/41AbFOdJqQL.jpg)
 
 ---
 
