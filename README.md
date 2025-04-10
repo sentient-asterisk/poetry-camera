@@ -61,7 +61,7 @@ interaction sequence — activating the camera, generating a poem, and playing a
 It’s connected to the Raspberry Pi’s GPIO pins, and due to its robust size and clear  
 physical feedback, it invites interaction and enhances the artifact’s tactile quality.  
 
-![Arcade Button Chrome Silver Plated](https://m.media-amazon.com/images/I/31+4N+6oq2S.jpg)
+![Arcade Button Chrome Silver Plated](https://drive.google.com/file/d/1chBbHby8RpK6oUuagNJ9g__D_D2nVd9H/view?usp=sharing)
 
 ---
 
