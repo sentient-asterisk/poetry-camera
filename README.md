@@ -116,7 +116,9 @@ We use the MAX4466 in combination with the **Arduino Uno** for our interactive l
 It captures the sound of the AI-generated, spoken poem and produces a responsive analog signal.  
 This signal reflects the audio volume and drives the LED animations in real time.  
 The LEDs visually respond to rhythm, intensity, and tone, enhancing the poetic performance experience.  
-This creates a rich, immersive fusion of sound and light that evolves with every word.  
+This creates a rich, immersive fusion of sound and light that evolves with every word.
+
+![Arduino Uno](https://i.ebayimg.com/images/g/u~EAAOSwnbZYFHi7/s-l400.jpg)
 
 ---
 
