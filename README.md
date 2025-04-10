@@ -154,7 +154,7 @@ allowing it to operate without needing a wall outlet. The Raspberry Pi requires 
 high-capacity, stable 5V/3A power bank to run smoothly, while a separate power bank  
 can be used for the Arduino and LED circuit to prevent power fluctuations.  
 
-![Power Banks](images/Power%20Banks.webp)
+![Power Banks](images/Power%20Banks.png)
 
 ---
 
