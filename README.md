@@ -28,7 +28,7 @@ we recommend the official Raspberry Pi 4 Desktop Kit, which includes everything
 needed to get started — including micro-HDMI cables for connecting to a display.  
 [https://www.raspberrypi.com/products/raspberry-pi-4-desktop-kit/](https://www.raspberrypi.com/products/raspberry-pi-4-desktop-kit/)
 
-![Raspberry Pi 4](https://www.generationrobots.com/19375-product_cover/raspberry-pi-4-model-b.jpg)
+![Raspberry Pi 4](images/Raspberry%20Pi%204.png)
 
 
 ---
@@ -45,7 +45,7 @@ real-time computer vision tasks. It’s important to enable the camera interface
 Pi's configuration settings before use, and ensure the ribbon cable is securely  
 connected — the camera is delicate and sensitive to handling.  
 
-![Raspberry Pi Camera Module V2](https://m.media-amazon.com/images/I/41AbFOdJqQL.jpg)
+![Raspberry Pi Camera Module V2](images/Raspberry%20Pi%20Camera%20Module%20V2.png)
 
 ---
 
@@ -72,7 +72,7 @@ countdown indicator. Once the arcade button is pressed, the LED begins blinking 
 signal that the system is processing. It connects to one of the Raspberry Pi’s GPIO pins  
 through a current-limiting resistor to prevent burnout.  
 
-![Jumbo Blue LED](https://5.imimg.com/data5/ECOM/Default/2024/7/436918091/IG/XF/LX/56767488/undefinedimg11687609097965-png-500x500.png)
+![Jumbo Blue LED](images/Jumbo%20Blue%20LED.png)
 
 ---
 
@@ -103,7 +103,7 @@ real time to the poem's playback. Its ability to handle analog audio signals and
 visual outputs independently makes it a perfect complement to the Raspberry Pi,  
 allowing both circuits to run specialized tasks in parallel.  
 
-![Arduino Uno](https://5.imimg.com/data5/OU/HS/GC/SELLER-20589996/arduino-uno-500x500.jpg)
+![Arduino Uno](images/Arduino%20Uno.png)
 
 ---
 
@@ -118,7 +118,7 @@ This signal reflects the audio volume and drives the LED animations in real time
 The LEDs visually respond to rhythm, intensity, and tone, enhancing the poetic performance experience.  
 This creates a rich, immersive fusion of sound and light that evolves with every word.
 
-![Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://i.ebayimg.com/images/g/u~EAAOSwnbZYFHi7/s-l400.jpg)
+![MAX9814 Microphone Module](images/MAX9814.png)
 
 ---
 
@@ -133,7 +133,7 @@ vibrant, real-time visual responses to the spoken poem. The sticks react to the 
 levels captured by the MAX9815 microphone, lighting up and animating in patterns that  
 reflect the tone of the poem. 
 
-![NeoPixels Sticks](https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/656499_493114_01_front_comping.jpg)
+![NeoPixel Sticks](images/NeoPixels%20Sticks.png)
 
 ---
 
@@ -143,7 +143,7 @@ power supply to electronic circuits. It features a stable, click-based toggle me
 and is commonly mounted into enclosures for easy access. The rocker switch acts as a  
 power control, allowing us to safely turn ‘Circuit 02’ on or off without unplugging wires.  
 
-![On-Off Rocker Switch](https://mgispeedware.com/wp-content/uploads/2019/12/neon_rocker_red.jpg)
+![On-Off Rocker Switch](images/On-Off%20Rocker%20Switch.png)
 
 ---
 
@@ -154,7 +154,7 @@ allowing it to operate without needing a wall outlet. The Raspberry Pi requires 
 high-capacity, stable 5V/3A power bank to run smoothly, while a separate power bank  
 can be used for the Arduino and LED circuit to prevent power fluctuations.  
 
-![Power Banks](https://mobileimages.lowes.com/productimages/c95d846f-30c7-4886-afa9-3f757eca19d8/42192142.jpg?size=xl)
+![Power Banks](images/Power%20Banks.webp)
 
 ---
 
