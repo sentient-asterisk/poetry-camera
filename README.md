@@ -1,15 +1,15 @@
-# Asterisk – A Sentient Camera
+# ✴️ Asterisk – A Sentient Camera
 
 ---
 
-## Components
+## 🧩 Components
 
 The project features two separate circuits: one powered by the Raspberry Pi for AI interaction  
 and poem generation, and another using an Arduino to run a real-time audio-reactive lighting system.
 
 ---
 
-### Circuit 01
+### ⚙️ Circuit 01
 
 #### ● Raspberry Pi 4  
 Raspberry Pi 4 is a compact, affordable single-board computer that is powerful enough  
@@ -29,7 +29,6 @@ needed to get started — including micro-HDMI cables for connecting to a displa
 [https://www.raspberrypi.com/products/raspberry-pi-4-desktop-kit/](https://www.raspberrypi.com/products/raspberry-pi-4-desktop-kit/)
 
 ![Raspberry Pi 4](images/Raspberry%20Pi%204.png)
-
 
 ---
 
@@ -90,7 +89,7 @@ rechargeable battery. Its plug-and-play nature makes integration seamless.
 
 ---
 
-### Circuit 02
+### 💡 Circuit 02
 
 #### ● Arduino Uno  
 The Arduino Uno is a popular open-source microcontroller board based on the  
@@ -158,7 +157,7 @@ can be used for the Arduino and LED circuit to prevent power fluctuations.
 
 ---
 
-## Software
+## 🧠 Software
 
 ### ● Raspberry Pi System  
 - **Raspberry Pi OS**: Lightweight Linux-based operating system for the Pi.  
@@ -177,7 +176,7 @@ can be used for the Arduino and LED circuit to prevent power fluctuations.
 
 ---
 
-## System Overview
+## 🛠️ System Overview
 
 ### 1. Set Up and Test Your Raspberry Pi and Camera
 
@@ -294,11 +293,10 @@ Without Wi-Fi, the camera can’t process or generate any poems.
 
 ---
 
-## License
+## 📜 License
 This project is open-source and licensed under the [MIT License](LICENSE).
 
 ---
 
-## Acknowledgments
+## 🙏 Acknowledgments
 Thanks to the open-source community and contributors of Raspberry Pi, Arduino, Adafruit, and Replicate AI models.
-
