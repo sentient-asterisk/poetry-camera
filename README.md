@@ -101,7 +101,7 @@ allowing both circuits to run specialized tasks in parallel.
 <p align="center">
   <img src="https://store-usa.arduino.cc/cdn/shop/files/A000066_03.front_934x700.jpg?v=1727102657" 
        alt="Arduino Board" 
-       style="max-height:200px; width:auto;">
+       style="max-height:100px; width:auto;">
 </p>
 
 
