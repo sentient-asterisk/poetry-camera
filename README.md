@@ -11,8 +11,7 @@ and poem generation, and another using an Arduino to run a real-time audio-react
 
 ---
 
-### ⚙️ Circuit 01
-
+### ⚙️ Circuit 01 / Vision and Voice Interaction System
 #### ● Raspberry Pi 4  
 Raspberry Pi 4 is a compact, affordable single-board computer that is powerful enough  
 to run full operating systems like Linux, yet small enough to fit in embedded systems.  
@@ -91,7 +90,7 @@ rechargeable battery. Its plug-and-play nature makes integration seamless.
 
 ---
 
-### 💡 Circuit 02
+### 💡 Circuit 02 / Audio Reactive Lighting System
 
 #### ● Arduino Uno  
 The Arduino Uno is a popular open-source microcontroller board based on the  
