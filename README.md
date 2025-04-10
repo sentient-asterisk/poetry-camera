@@ -86,7 +86,7 @@ The AYL Mini Speaker plays the AI-generated poem using text-to-speech audio. It
 connects to the Raspberry Pi via the 3.5mm audio jack and is powered by its built-in  
 rechargeable battery. Its plug-and-play nature makes integration seamless.  
 
-![AYL Mini Speaker System](https://m.media-amazon.com/images/I/71bsWUm9GKL._AC_SX466_.jpg)
+![AYL Mini Speaker System](images/AYL Mini Speaker System.png)
 
 ---
 
