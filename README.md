@@ -1,4 +1,4 @@
-# Asterisk- A Sentient Camera
+# Asterisk – A Sentient Camera
 
 ---
 
