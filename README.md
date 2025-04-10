@@ -100,10 +100,6 @@ A powerful SBC used for real-time tasks such as:
 
 ---
 
-# Sentient Artefact
-
----
-
 ## System Overview
 
 ### 1. Set Up and Test Your Raspberry Pi and Camera
