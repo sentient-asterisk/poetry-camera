@@ -67,6 +67,8 @@ countdown indicator. Once the arcade button is pressed, the LED begins blinking 
 signal that the system is processing. It connects to one of the Raspberry Pi’s GPIO pins  
 through a current-limiting resistor to prevent burnout.  
 
+![Jumbo Blue LED](https://5.imimg.com/data5/ECOM/Default/2024/7/436918091/IG/XF/LX/56767488/undefinedimg11687609097965-png-500x500.png)
+
 ---
 
 #### ● AYL Mini Speaker System  
@@ -78,6 +80,8 @@ space-constrained interactive installations that still need effective audio outp
 The AYL Mini Speaker plays the AI-generated poem using text-to-speech audio. It  
 connects to the Raspberry Pi via the 3.5mm audio jack and is powered by its built-in  
 rechargeable battery. Its plug-and-play nature makes integration seamless.  
+
+![AYL Mini Speaker System](https://m.media-amazon.com/images/I/31+4N+6oq2S.jpg)
 
 ---
 
@@ -93,6 +97,8 @@ We use the Arduino Uno to power the audio-reactive lighting system, which respon
 real time to the poem's playback. Its ability to handle analog audio signals and drive  
 visual outputs independently makes it a perfect complement to the Raspberry Pi,  
 allowing both circuits to run specialized tasks in parallel.  
+
+![Arduino Uno](https://m.media-amazon.com/images/I/31+4N+6oq2S.jpg)
 
 ---
 
