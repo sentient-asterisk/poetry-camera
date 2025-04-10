@@ -6,7 +6,7 @@ Asterisk Poetry Camera is an interactive AI photo booth that captures a user's p
 The project features two separate circuits: one powered by the Raspberry Pi for AI interaction and poem generation, and another using an Arduino to run a real-time audio-reactive lighting system.<br>
 
 **Circuit 01**<br>
-**Raspberry Pi 4**<br>
+***Raspberry Pi 4**<br>
 <br>
 Raspberry Pi 4 is a compact, affordable single-board computer that is powerful enough to run full operating systems like Linux, yet small enough to fit in embedded systems. It offers significant upgrades over previous models, with a faster CPU, more RAM options, dual HDMI outputs, and USB 3.0 support. 
 <br>
