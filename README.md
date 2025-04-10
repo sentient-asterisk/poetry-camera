@@ -61,7 +61,7 @@ interaction sequence — activating the camera, generating a poem, and playing a
 It’s connected to the Raspberry Pi’s GPIO pins, and due to its robust size and clear  
 physical feedback, it invites interaction and enhances the artifact’s tactile quality.  
 
-![Arcade Button Chrome Silver Plated](https://drive.google.com/file/d/1chBbHby8RpK6oUuagNJ9g__D_D2nVd9H/view?usp=sharing)
+![Arcade Button](images/Arcade%20Button.png)
 
 ---
 
@@ -86,7 +86,7 @@ The AYL Mini Speaker plays the AI-generated poem using text-to-speech audio. It
 connects to the Raspberry Pi via the 3.5mm audio jack and is powered by its built-in  
 rechargeable battery. Its plug-and-play nature makes integration seamless.  
 
-![AYL Mini Speaker System](images/AYL Mini Speaker System.png)
+![AYL Mini Speaker](images/AYL%20Mini%20Speaker%20System.png)
 
 ---
 
