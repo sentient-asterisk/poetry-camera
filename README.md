@@ -1,19 +1,20 @@
 # poetry-camera
 Asterisk Poetry Camera is an interactive AI photo booth that captures a user's pose, generates a humorous poem, and speaks it aloud—turning moments into playful, poetic performances. Built with Raspberry Pi, Arduino, and real-time AI models.
 
-**Components**
+**Components**<br>
 
-The project features two separate circuits: one powered by the Raspberry Pi for AI interaction and poem generation, and another using an Arduino to run a real-time audio-reactive lighting system.
+The project features two separate circuits: one powered by the Raspberry Pi for AI interaction and poem generation, and another using an Arduino to run a real-time audio-reactive lighting system.<br>
 
-**Circuit 01
-Raspberry Pi 4**
+**Circuit 01**<br>
+**Raspberry Pi 4**<br>
+<br>
 Raspberry Pi 4 is a compact, affordable single-board computer that is powerful enough to run full operating systems like Linux, yet small enough to fit in embedded systems. It offers significant upgrades over previous models, with a faster CPU, more RAM options, dual HDMI outputs, and USB 3.0 support. 
-
+<br>
 We are using the Pi 4 for its ability to handle multiple tasks in real-time — like capturing camera input, generating poems using AI models, and playing audio — all without needing an external computer. While it's not the most power-efficient or compact model, the Pi 4 gives us the processing capacity needed for running advanced AI tasks locally. 
-
+<br>
 If you're setting up your Raspberry Pi 4 with an external monitor, keyboard, and mouse, we recommend the official Raspberry Pi 4 Desktop Kit, which includes everything needed to get started — including micro-HDMI cables for connecting to a display.
-
-
+<br>
+<br>
 Raspberry Pi Camera Module Rev 1.3
 The Raspberry Pi Camera Module V2 is an official high-quality camera add-on designed for Raspberry Pi boards. It features an 8-megapixel Sony IMX219 sensor and can capture still images at 3280 x 2464 resolution and record HD video at 1080p30, 720p60, and 640x480p90. It's compact, lightweight, and connects directly to the Pi via the CSI (Camera Serial Interface) port using a ribbon cable.
 
