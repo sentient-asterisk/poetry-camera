@@ -28,6 +28,9 @@ we recommend the official Raspberry Pi 4 Desktop Kit, which includes everything
 needed to get started — including micro-HDMI cables for connecting to a display.  
 [https://www.raspberrypi.com/products/raspberry-pi-4-desktop-kit/](https://www.raspberrypi.com/products/raspberry-pi-4-desktop-kit/)
 
+![Raspberry Pi 4]([https://m.media-amazon.com/images/I/31+4N+6oq2S.jpg](https://www.generationrobots.com/19375-product_cover/raspberry-pi-4-model-b.jpg))
+
+
 ---
 
 #### ● Raspberry Pi Camera Module V2  
@@ -41,6 +44,8 @@ Its reliable image quality and native integration with Raspberry Pi make it a gr
 real-time computer vision tasks. It’s important to enable the camera interface via the  
 Pi's configuration settings before use, and ensure the ribbon cable is securely  
 connected — the camera is delicate and sensitive to handling.  
+
+![Arcade Button Chrome Silver Plated](https://m.media-amazon.com/images/I/31+4N+6oq2S.jpg)
 
 ---
 
