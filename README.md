@@ -100,6 +100,127 @@ A powerful SBC used for real-time tasks such as:
 
 ---
 
+# Sentient Artefact
+
+---
+
+## System Overview
+
+### 1. Set Up and Test Your Raspberry Pi and Camera
+
+**Connect the Camera Module**  
+Attach the Camera Module to the CSI (Camera Serial Interface) port on your Raspberry Pi.
+
+**Insert SD Card**  
+Use a microSD card with a fresh install of Raspberry Pi OS and insert it into your Pi.
+
+**Connect to a Monitor**  
+Plug your Raspberry Pi into a monitor using a mini HDMI cable.
+
+**Power Up the Pi**  
+Connect the power supply. A green LED should turn on, and the startup screen should appear on the monitor.
+
+**Open the Terminal**  
+Once the Pi boots up, open the Terminal to configure system settings.
+
+**Configure Camera & Serial Settings**  
+In the Terminal, run:
+
+```bash
+sudo raspi-config
+```
+
+Then adjust the following:  
+Enable Serial Port (allows communication with external devices like printers)  
+Disable Serial Console (prevents it from using the same port)
+
+**Restart the Pi**  
+Apply the changes and reboot the system if prompted.
+
+---
+
+### 2. Set Up the AI
+
+Create an account on Replicate and generate an API token.
+
+In your project directory, create a .env file to store sensitive info:
+
+```bash
+nano .env
+```
+
+Add your token like this:
+
+```env
+REPLICATE_API_TOKEN=your_token_here
+```
+
+---
+
+### 3. Run Asterisk End-to-End
+
+**Connect the Arcade Button and LED**  
+Wire the arcade button and jumbo LED to GPIO pins 27–40 on the Raspberry Pi.
+
+**Start the Asterisk script**  
+In the terminal, run:
+
+```bash
+python main.py
+```
+
+**Trigger the Interaction**  
+Press the arcade button to begin. The LED will blink, indicating a short countdown before the photo is captured.
+
+**Experience the Output**  
+After the image is taken, a poem is generated and spoken aloud—completing the interaction.
+
+---
+
+### 4. Automatically Run Asterisk on Startup
+
+To make the Asterisk script launch automatically when the Raspberry Pi boots up, set up a cron job:
+
+**Open your crontab**  
+In the terminal, type:
+
+```bash
+crontab -e
+```
+
+**Add this line at the bottom** (replace the path if your script is in a different folder):
+
+```bash
+# Run Asterisk script at startup
+@reboot python /home/pi/asterisk/main.py >> /home/pi/asterisk/errors.txt 2>&1
+```
+
+This line tells the Pi to run your script on boot and log any errors to errors.txt for debugging.
+
+**Important Notes**  
+Use absolute file paths.  
+Double-check that your username and directories are correct.
+
+**Reboot to test**
+
+```bash
+sudo reboot
+```
+
+---
+
+### 5. Stay Connected to Wi-Fi
+
+Your Raspberry Pi must stay connected to Wi-Fi at all times for Asterisk to function properly.
+
+The system relies on internet access to:  
+Send images to Replicate's AI models  
+Receive the generated poem and spoken audio
+
+Without Wi-Fi, the camera can’t process or generate any poems.
+
+---
+
 ## License
 This project is open-source and licensed under the [MIT License](LICENSE).
 
