@@ -98,7 +98,10 @@ real time to the poem's playback. Its ability to handle analog audio signals and
 visual outputs independently makes it a perfect complement to the Raspberry Pi,  
 allowing both circuits to run specialized tasks in parallel.  
 
-![Arduino Uno](https://store-usa.arduino.cc/cdn/shop/files/A000066_03.front_934x700.jpg?v=1727102657){style="max-height:200px"}
+  <img src="https://store-usa.arduino.cc/cdn/shop/files/A000066_03.front_934x700.jpg?v=1727102657" 
+       alt="Arduino Board" 
+       style="max-height:200px; width:auto;">
+
 
 ---
 
