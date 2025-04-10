@@ -1,124 +1,110 @@
-# poetry-camera
-Asterisk Poetry Camera is an interactive AI photo booth that captures a user's pose, generates a humorous poem, and speaks it aloud—turning moments into playful, poetic performances. Built with Raspberry Pi, Arduino, and real-time AI models.
+# Sentient Artefact
 
-**Components**<br>
+An interactive multimedia experience that generates poetry from a scene and responds with light and sound. Built using Raspberry Pi and Arduino, the artefact combines AI with tactile and audio-reactive interaction.
 
-The project features two separate circuits: one powered by the Raspberry Pi for AI interaction and poem generation, and another using an Arduino to run a real-time audio-reactive lighting system.<br>
+---
 
-**Circuit 01**<br>
-***Raspberry Pi 4**<br>
-<br>
-Raspberry Pi 4 is a compact, affordable single-board computer that is powerful enough to run full operating systems like Linux, yet small enough to fit in embedded systems. It offers significant upgrades over previous models, with a faster CPU, more RAM options, dual HDMI outputs, and USB 3.0 support. 
-<br>
-We are using the Pi 4 for its ability to handle multiple tasks in real-time — like capturing camera input, generating poems using AI models, and playing audio — all without needing an external computer. While it's not the most power-efficient or compact model, the Pi 4 gives us the processing capacity needed for running advanced AI tasks locally. 
-<br>
-If you're setting up your Raspberry Pi 4 with an external monitor, keyboard, and mouse, we recommend the official Raspberry Pi 4 Desktop Kit, which includes everything needed to get started — including micro-HDMI cables for connecting to a display.
-<br>
-<br>
-Raspberry Pi Camera Module Rev 1.3
-The Raspberry Pi Camera Module V2 is an official high-quality camera add-on designed for Raspberry Pi boards. It features an 8-megapixel Sony IMX219 sensor and can capture still images at 3280 x 2464 resolution and record HD video at 1080p30, 720p60, and 640x480p90. It's compact, lightweight, and connects directly to the Pi via the CSI (Camera Serial Interface) port using a ribbon cable.
+## Components
 
-Its reliable image quality and native integration with Raspberry Pi make it a great fit for real-time computer vision tasks. It’s important to enable the camera interface via the Pi's configuration settings before use, and ensure the ribbon cable is securely connected — the camera is delicate and sensitive to handling.
+The project consists of **two circuits**:
+- **Circuit 01:** Powered by Raspberry Pi for AI interaction and poem generation.
+- **Circuit 02:** Powered by Arduino for real-time audio-reactive lighting.
 
+---
 
-Arcade Button Chrome Silver Plated
-The Arcade Button is a tactile, spring-loaded button commonly used in DIY electronics and gaming projects for its satisfying click and retro aesthetic. It’s durable, easy to mount, and visually striking thanks to its chrome finish. Internally, it operates as a simple momentary switch — when pressed, it completes a circuit, sending a signal to the connected microcontroller or computer.
+## 📷 Circuit 01 – Raspberry Pi System
 
-We used the arcade button as the user input trigger: pressing it starts the entire interaction sequence — activating the camera, generating a poem, and playing audio. It’s connected to the Raspberry Pi’s GPIO pins, and due to its robust size and clear physical feedback, it invites interaction and enhances the artifact’s tactile quality.
+### Raspberry Pi 4
+A powerful SBC used for real-time tasks such as:
+- Capturing images
+- Generating poems via AI
+- Playing audio output
 
+> **Recommended:** Raspberry Pi 4 Desktop Kit for complete setup.
 
-Jumbo Blue LED 
-The Jumbo Blue LED is a large, bright light-emitting diode typically used in interactive projects for signaling or visual feedback. We use the Jumbo Blue LED as a visual countdown indicator. Once the arcade button is pressed, the LED begins blinking to signal that the system is processing. It connects to one of the Raspberry Pi’s GPIO pins through a current-limiting resistor to prevent burnout.
+### Raspberry Pi Camera Module Rev 1.3
+- 8MP Sony IMX219 sensor
+- Captures high-quality images and HD video
+- Connected via CSI ribbon cable
 
+### Arcade Button (Chrome Silver Plated)
+- Momentary switch triggering the interaction sequence
+- Connected to GPIO pins
+- Tactile and visually engaging
 
-AYL Mini Speaker System
-The AYL Mini Speaker System is a compact, portable audio speaker designed for use with smartphones, laptops, and embedded systems like the Raspberry Pi. Despite its small size, it delivers surprisingly clear and loud sound, making it ideal for space-constrained interactive installations that still need effective audio output.
+### Jumbo Blue LED
+- Visual countdown indicator
+- Blinks after button press to signal processing
+- Connected through GPIO with a current-limiting resistor
 
-The AYL Mini Speaker plays the AI-generated poem using text-to-speech audio. It connects to the Raspberry Pi via the 3.5mm audio jack and is powered by its built-in rechargeable battery. Its plug-and-play nature makes integration seamless.
+### AYL Mini Speaker
+- Compact, loud audio output
+- Plays AI-generated poem via 3.5mm jack
+- Rechargeable and portable
 
+---
 
-Circuit 02
-Arduino Uno
-The Arduino Uno is a popular open-source microcontroller board based on the ATmega328P. It’s designed for ease of use in prototyping and physical computing, offering 14 digital I/O pins, 6 analog inputs, and simple USB programming. It’s ideal for controlling sensors, LEDs, motors, and other hardware.
+## 💡 Circuit 02 – Arduino System
 
-We use the Arduino Uno to power the audio-reactive lighting system, which responds in real time to the poem's playback. Its ability to handle analog audio signals and drive visual outputs independently makes it a perfect complement to the Raspberry Pi, allowing both circuits to run specialized tasks in parallel.
+### Arduino Uno
+- Controls audio-reactive lighting
+- Processes analog signals from microphone
+- Runs lighting animations in sync with poem audio
 
+### Electret Microphone Amplifier (MAX9814)
+- Captures real-time sound levels with AGC
+- Outputs analog volume signal to Arduino
 
-Electret Microphone Amplifier MAX9814
-The MAX9815 is a high-gain, low-noise electret microphone amplifier module with automatic gain control (AGC). It’s designed to capture audio input with consistent volume levels, making it ideal for applications where sound levels vary or where clarity is key.
+### NeoPixel Sticks
+- 8x5050 RGB LEDs per stick
+- 6 sticks used for dynamic lighting effects
+- Controlled via single digital pin using WS2812 protocol
 
-We use the MAX9815 module with the Arduino Uno to enable the audio-reactive lighting system. It picks up the sound of the spoken poem and outputs an analog signal proportional to the audio volume. This signal is then used to animate LEDs in sync with the rhythm and intensity of the poem, creating a dynamic and immersive visual response to the AI-generated audio.
+### On-Off Rocker Switch
+- Manual power control for Circuit 02
+- Ensures safe power management
 
+### Power Banks
+- Ensures full mobility
+- One power bank for Pi (5V/3A)
+- One for Arduino + LEDs to avoid power fluctuation
 
-NeoPixels Sticks
-The NeoPixel Stick – 8 x 5050 RGB LED with Integrated Drivers is a compact LED strip featuring 8 individually addressable RGB LEDs. Each LED can display 24-bit color, and the entire stick is controlled using a single digital pin, thanks to the built-in WS2812 drivers.
+---
 
-We use six NeoPixel Sticks in the Arduino-powered audio-reactive circuit to create vibrant, real-time visual responses to the spoken poem. The sticks react to the audio levels captured by the MAX9815 microphone, lighting up and animating in patterns that reflect the tone of the poem.
+## 🧠 Software
 
+### Raspberry Pi
+- **OS:** Raspberry Pi OS (Linux-based)
+- **Language:** Python 3
 
-On-Off Rocker Switch
-The On-Off Rocker Switch is a simple, durable switch used to manually control the power supply to electronic circuits. It features a stable, click-based toggle mechanism and is commonly mounted into enclosures for easy access. The rocker switch acts as a power control, allowing us to safely turn ‘Circuit 02’ on or off without unplugging wires.
+### Arduino
+- **IDE:** Arduino IDE
+- **Libraries:** Adafruit NeoPixel Library
+- **Sketch:** Custom script for sound-reactive lighting
 
+### AI Models (via [Replicate](https://replicate.com))
+- **LLaVA-13B:** Generates scene description
+- **DeepSeek V3:** Generates 8-line poem
+- **kokoro-82m:** Converts poem text to spoken audio
 
+---
 
-Power Banks
-Power banks are portable battery packs designed to supply power to electronic devices on the go. We use power banks to make the system fully mobile and self-contained, allowing it to operate without needing a wall outlet. The Raspberry Pi requires a high-capacity, stable 5V/3A power bank to run smoothly, while a separate power bank can be used for the Arduino and LED circuit to prevent power fluctuations.
+## 💬 Interaction Flow
 
-***
+1. **User presses arcade button**
+2. LED countdown starts
+3. Camera captures image
+4. AI generates description → poem → audio
+5. Poem played through speaker
+6. Arduino reacts to audio with dynamic lights
 
-Software
+---
 
-Raspberry Pi System
-Raspberry Pi OS: Lightweight Linux-based operating system for the Pi.
-Python 3: Main programming language used to run the entire interaction logic.
+## License
+This project is open-source and licensed under the [MIT License](LICENSE).
 
-Arduino Audio-Reactive System
-Arduino IDE: Used to write and upload code to the Arduino Uno.
-Adafruit NeoPixel Library: Controls the NeoPixel LED animations.
-Custom Arduino Sketch: Reads sound input from the MAX9815 mic and controls the lighting effects in real time.
+---
 
-AI Models via Replicate
-LLaVA-13B: Generates a scene description from the captured image.
-DeepSeek V3: Creates an 8-line poem from the scene description.
-kokoro-82m (Jaaari): Converts poem text into natural-sounding spoken audio.
+## Acknowledgments
+Thanks to the open-source community and contributors of Raspberry Pi, Arduino, Adafruit, and Replicate AI models.
 
-***
-
-System Overview
-
-Set Up and Test Your Raspberry Pi and Camera
-Connect the Camera Module
-Attach the Camera Module to the CSI (Camera Serial Interface) port on your Raspberry Pi.
-
-Insert SD Card
-Use a microSD card with a fresh install of Raspberry Pi OS and insert it into your Pi.
-
-Connect to a Monitor
-Plug your Raspberry Pi into a monitor using a mini HDMI cable.
-
-Power Up the Pi
-Connect the power supply. A green LED should turn on, and the startup screen should appear on the monitor.
-
-Open the Terminal
-Once the Pi boots up, open the Terminal to configure system settings.
-
-Configure Camera & Serial Settings
-In the Terminal, run:
-sudo raspi-config
-
-Then adjust the following:
-Enable Serial Port (allows communication with external devices like printers)
-Disable Serial Console (prevents it from using the same port)
-
-Restart the Pi
-Apply the changes and reboot the system if prompted.
-
-
-Set Up the AI
-Create an account on Replicate and generate an API token.
-
-In your project directory, create a .env file to store sensitive info:
-nano .env
-
-Add your token like this:
-REPLICATE_API_TOKEN=your_token_here
